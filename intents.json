@@ -1,0 +1,66 @@
+{"intents": [
+	  {"tag": "salutation ",
+	    "patterns": ["Bonjour", "Salut", "Hey", "Hello", "Salutation", "Whats up", "Yo", "Hola"],
+	    "responses": ["Hello !", "Salut !", "Bonjour :)"],
+	    "context_set": ""
+	  },
+	  {"tag": "adieu",
+	    "patterns": ["Adieu", "Au revoir", "Goodbye", "Bonne journee", "Bonne soiree", "bye", "cao", "a plus"],
+	    "responses": ["On se reparlera plus tard :(", "Au revoir", "bonne journee", "a demain", "a plus", "cao", "Bonne soiree", "Goodbye", "a plus tard", "a tout a l'heure"],
+	    "context_set": ""
+	  },
+    
+	  {"tag": "Meteo",
+	    "patterns": ["Quel temps fait-il aujourd'hui ?", "Quel temps fera-t-il demain ?", "Quelles est la temperature actuelle ?", "Est-ce qu'il pleut aujourd'hui ?"],
+	    "responses": ["Je ne dispose pas encore d'une API pour pouvoir aux questions sur la meteo"],
+	    "context_set": ""
+	  },
+	  {"tag": "nom",
+	    "patterns": ["Quel est ton nom ?", "Comment tu t'appel ?", "Comment on t'appel ?", "Comment tu te nommes ?", "Qui es-tu ?"],
+	    "responses": ["Je n'ai pas de nom je suis juste un bot"],
+	    "context_set": ""
+	  },
+	  {"tag": "age",
+	    "patterns": ["Quand es-tu ne ?", "Quel age as-tu ?", "Quel est ton age ?", "Est-ce que tu es vieux ?", "Est-ce que tu es jeune ?", "Quelle est ta date de naissance?"],
+	    "responses": ["J ai ete cree pour le projet CAA de 2021, je suis donc ne en 2021"],
+	    "context_set": ""
+	  },
+   
+	  {"tag": "couleur",
+	    "patterns": ["Quelle est ta couleur preferee ?","De quelle couleur est le ciel ?"],
+	    "responses": ["j'aime beaucoup le bleu","le ciel est de couleur bleu"],
+	    "context_set": ""
+	  },
+
+	  {"tag": "sport",
+	    "patterns": ["Quels est ton sport prefere ?", "Quelle est ta discipline preferee ?", "Est-ce que tu aimes regarder du sport ?", "Pratique-tu un sport ?"],
+	    "responses": ["Je ne suis qu'un simple bot, je ne peux pas pratiquer de sport mais j'aime beaucoup le basket"],
+	    "context_set": ""
+
+	  },
+	  {"tag": "animal",
+	    "patterns": ["Quels est ton animal prefere ?", "Quelle est ta race de chien preferee ?"],
+	    "responses": ["Mon animal prefere est le chien", "J'aime beaucoup les bulldog français"],
+	    "context_set": ""
+
+	  },
+	  {"tag": "pays",
+	    "patterns": ["Quels est ton pays prefere ?"],
+	    "responses": ["Mon pays prefere est la France car je suis nee en France"],
+	    "context_set": ""
+	  },
+
+	  {"tag": "jeux",
+	    "patterns": ["Quels est ton jeu prefere ?", "Quel est le type de jeux que tu prefere le plus ?"], 
+	    "responses": ["J'aime beaucoup jouer contre d'autre bot a league of legend meme s'ils me comprennent pas :(", "J'adore les jeux de strategie"],
+	    "context_set": ""
+	  },
+
+	  {"tag": "arbre",
+	    "patterns": ["Quels est ton arbre prefere ?", "Combien il y a t-il de variete d'arbre ?","Quel est l'arbre le plus grand du monde ?"], 
+	    "responses": ["Mon arbre prefere est le cerisier, il existe en tout 60 065 especes d'arbres dans le monde, l'arbre le plus grand du monde est un sequioas de 115,55 metres"],
+	    "context_set" : ""
+	  }
+	]
+}
+
